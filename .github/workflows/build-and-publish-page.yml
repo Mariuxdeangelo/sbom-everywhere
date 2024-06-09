@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: cd SBOM-wiki && npm install
 
-      - name: Run lint
-        run: cd SBOM-Catalog && npm run lint
-
       - name: Run build
         run: cd SBOM-wiki && npm run docs:build
 
@@ -32,10 +29,13 @@ jobs:
       - name: Install dependencies
         run: cd SBOM-Catalog && npm install
 
+      - name: Run lint
+        run: cd SBOM-Catalog && npm run lint
+
       - name: Run build
         run: cd SBOM-Catalog && npm run build
 
-      - name: copy Catalog to buid artifact
+      - name: copy Catalog to build artifact
         run: cp SBOM-Catalog/dist SBOM-wiki/dist/catalog
 
       # Build and publish all aritifacts
