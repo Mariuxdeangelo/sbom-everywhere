@@ -36,17 +36,17 @@ jobs:
         run: cd SBOM-Catalog && npm run build
 
       - name: copy Catalog to build artifact
-        run: rm -rf SBOM-wiki/dist/catalog/* && mv SBOM-Catalog/dist SBOM-wiki/.vitepress/dist/catalog/
+        run: rm -rf SBOM-wiki/.vitepress/dist/catalog/* && mv SBOM-Catalog/dist SBOM-wiki/.vitepress/dist/catalog/
 
       # Build and publish all aritifacts
       - name: Upload pages artifact to action workflow
         uses: actions/upload-artifact@v4
         with:
           name: pages-build-artifact
-          path: SBOM-wiki/dist
+          path: SBOM-wiki/.vitepress/dist/
 
       - name: Create zip for release file
-        run: zip -r sbom-catalog-${{github.ref_name}}.zip SBOM-wiki/dist
+        run: zip -r sbom-catalog-${{github.ref_name}}.zip SBOM-wiki/.vitepress/dist
 
       - name: Upload pages release asset
         uses: softprops/action-gh-release@v2
@@ -56,7 +56,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: SBOM-wiki/dist
+          folder: SBOM-wiki/.vitepress/dist/
           branch: gh-pages
 
   # Create a SBOM with Syft for SPDX
