@@ -8,6 +8,5 @@
     "vitepress": "^1.2.2"
   },
   "dependencies": {
-    "primevue": "^3.52.0"
   }
 }

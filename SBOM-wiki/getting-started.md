@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Select an SBOM-Generation Phase
-Depending on the technology stack used, the phase of the software development lifecycle in which an SBOM is generated can significantly affect its quality. The different phases are explained in more detail in the [SBOM types](sbom-types). For open-source projects, it is most beneficial to provide a source or a build SBOM, giving the consumer insights into the composition of a project build before it is compiled into an artifact. This provides access to details of the project composition that might otherwise remain hidden. While providing an SBOM based on the analysis of a build artifact can also be useful, such an SBOM can be produced by the user with their preferred tooling.
+Depending on the technology stack used, the phase of the software development lifecycle in which an SBOM is generated can significantly affect its quality. The different phases are explained in more detail in the [SBOM types](/sbom-types). For open-source projects, it is most beneficial to provide a source or a build SBOM, giving the consumer insights into the composition of a project build before it is compiled into an artifact. This provides access to details of the project composition that might otherwise remain hidden. While providing an SBOM based on the analysis of a build artifact can also be useful, such an SBOM can be produced by the user with their preferred tooling.
 
 ## Choose a Generation Methodology
 Assuming the goal is to produce a source or build SBOM for a project, it should be decided whether the SBOM generation should be part of the build process (like a plugin added to the build tooling) or if a separate tool should be applied to the repository during the build.
