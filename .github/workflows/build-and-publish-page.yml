@@ -36,7 +36,7 @@ jobs:
         run: cd SBOM-Catalog && npm run build
 
       - name: copy Catalog to build artifact
-        run: rm -rf SBOM-wiki/dist/catalog/ && mv SBOM-Catalog/dist SBOM-wiki/dist/catalog/
+        run: rm -rf SBOM-wiki/dist/catalog/* && mv SBOM-Catalog/dist SBOM-wiki/dist/catalog/
 
       # Build and publish all aritifacts
       - name: Upload pages artifact to action workflow
