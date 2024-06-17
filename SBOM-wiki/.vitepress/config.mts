@@ -6,6 +6,10 @@ export default defineConfig({
   title: "SBOM-Everywhere Wiki",
   description: "Information and advice about using SBOM in open source projects.",
   themeConfig: {
+    search: {
+      provider: "local"
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -27,8 +31,9 @@ export default defineConfig({
         text: 'Cataloges',
         items: [
           { text: 'SBOM Tools', link: '/catalog/index.html' },
-          { text: 'SBOM Example Integrations', link: '/example-integrations' },
-          { text: 'SBOM Compliance', link: '/sbom-compliance' }
+          { text: 'SBOM Compliance', link: '/sbom-compliance' },
+          { text: 'SBOM working groups', link: '/sbom-working-groups'},
+          { text: 'SBOM Example Integrations', link: '/example-integrations' }
         ]
       },
       {
