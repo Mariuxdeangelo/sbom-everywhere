@@ -93,7 +93,7 @@ To provide a better overview of the available tooling and their capabilities, th
 
 [https://ossf.github.io/sbom-everywhere/](https://ossf.github.io/sbom-everywhere/)
 
-If you want to get involved, please see the document [here](/SBOM-Catalog/contribute.md)
+If you want to get involved, please see the document [here](https://github.com/ossf/sbom-everywhere/SBOM-Catalog/contribute.md)
 
 
 ## Prior Work
@@ -117,4 +117,4 @@ NTIA's legwork has been a guiding source having done the most comprehensive rese
 
 ## Governance
 
-The [CHARTER.md](CHARTER.md) outlines the scope and governance of our group activities.
+The [CHARTER.md](https://github.com/ossf/sbom-everywhere/CHARTER.md) outlines the scope and governance of our group activities.

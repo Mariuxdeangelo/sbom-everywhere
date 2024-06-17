@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Getting started
       link: /getting-started
+    - theme: brand
+      text: Tooling Catalog
+      link: https://sbom-catalog.openssf.org/catalog/
   image:
     src: thumbnail.webp
     alt: SBOM catalog
