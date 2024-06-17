@@ -6,9 +6,9 @@ export default defineConfig({
   title: "SBOM-Everywhere Wiki",
   description: "Information and advice about using SBOM in open source projects.",
   themeConfig: {
-    search: {
-      provider: "local"
-    },
+    // search: {
+    //   provider: "local"
+    // },
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
