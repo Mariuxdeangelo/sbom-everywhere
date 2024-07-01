@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/sbom-everywhere/",
+  // base: "/sbom-everywhere/",
   title: "SBOM-Everywhere Wiki",
   description: "Information and advice about using SBOM in open source projects.",
   themeConfig: {
-    // search: {
-    //   provider: "local"
-    // },
+    search: {
+      provider: "local"
+    },
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
