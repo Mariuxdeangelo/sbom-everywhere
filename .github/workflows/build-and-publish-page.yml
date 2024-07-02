@@ -23,7 +23,7 @@ jobs:
         run: cd SBOM-wiki && npm install
 
       - name: Run build
-        run: cd SBOM-wiki && npm run docs:build
+        run: cd SBOM-wiki && npm run build
 
       # Build the SBOM Catalog and copy the artifact to the wiki
       - name: Install dependencies

@@ -3,7 +3,7 @@
 This is a project to implement an SBOM Catalog inspired by the [Landscape of the Cloud Native Computing Foundation](https://landscape.cncf.io/).
 
 
-The page can be found [here](https://sbom-catalog.openssf.org/)
+The page can be found [here](https://sbom-catalog.openssf.org/catalog/)
 
 ## How to run the tool locally
 

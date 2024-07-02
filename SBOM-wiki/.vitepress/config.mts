@@ -30,7 +30,7 @@ export default defineConfig({
       {
         text: 'Cataloges',
         items: [
-          { text: 'SBOM Tools', link: '/catalog/index.html' },
+          { text: 'SBOM Tools', link: 'https://sbom-catalog.openssf.org/catalog/' },
           { text: 'SBOM Compliance', link: '/sbom-compliance' },
           { text: 'SBOM working groups', link: '/sbom-working-groups'},
           { text: 'SBOM Example Integrations', link: '/example-integrations' }

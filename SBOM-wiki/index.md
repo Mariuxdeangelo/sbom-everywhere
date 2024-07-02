@@ -20,7 +20,7 @@ hero:
 features:
   - title: SBOM Catalog
     details: Looking for the right SBOM tooling? Explore our interactive catalog.
-    link: https://sbom-catalog.openssf.org/
+    link: https://sbom-catalog.openssf.org/catalog/
   - title: SBOM Types
     details: What types of SBOMs are there and what do I need?
     link: /sbom-types
