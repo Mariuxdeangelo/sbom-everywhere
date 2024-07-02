@@ -41,7 +41,7 @@ export default defineConfig({
         items: [
           { text: 'SBOM Types', link: '/sbom-types' },
           { text: 'SBOM Naming', link: '/sbom-naming' },
-          { text: 'About us', link: '/sbom-working-groups'}
+          { text: 'About us', link: '/about-us'}
         ]
       }
     ],
